@@ -1,0 +1,148 @@
+.jumbotron {
+    margin-top:10vh;
+    background-image: url(../../img/jumbotron.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: -25vh;
+    background-size: cover;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.5);
+    height: 90vh;
+}
+
+.mask {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+    animation: ease-in 3s 5s 1s 4 center;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+.icon img {
+    margin: 4% 4%;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+#about {
+    margin: 8% 0%;
+}
+
+.about .row {
+    padding: 3% 0px;
+}
+
+.list-group-item p.d-flex {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.pendaftaran {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    background-color: rgb(225, 255, 225);
+}
+
+.alist {
+    list-style:upper-alpha;
+    font-weight: bold;
+    margin: 2% 0%;
+}
+
+.nlist {
+    list-style: decimal;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.list {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.pli {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.syarat {
+    list-style-type: decimal;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+hr {
+    padding: 0.5px;
+    background-image: linear-gradient(to right, white, black, white);
+}
+
+.btn-floating {
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    position: relative;
+    z-index: 1;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    margin: 10px;
+    border-radius: 50%;
+    padding: 3;
+    cursor: pointer;
+    width: fit-content;
+    height: auto;
+}
+
+.card-header {
+    margin-top: -10%;
+}
+
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+footer .col {
+    margin-top: 3%;
+    padding: 2% ;
+    bottom: 0px;
+}
+
+@media (max-width:1170px) {
+    .jumbotron {
+        height: 425px;
+        background-position: center;
+        background-position-y: -25vh;
+        margin-top:8vh;
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width:520px) {
+    .jumbotron {
+        background-attachment: fixed;
+        height: auto;
+        background-position: center;
+        background-position-y: -25vh;
+        margin-top:9vh;
+    }
+    .list-group-item p.d-flex {
+        font-weight: bold;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    footer {
+        width: 100%;
+    }
+}
